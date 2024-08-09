@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroanonimo - Produtos</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('sistema-codigo-binario.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: #1b511b;
+            color: #118911;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        header img {
+            height: 50px;
+        }
+        h1 {
+            text-align: center;
+            color: #14b11a;
+            text-shadow: 3px 4px 4px #a6ffa3; 
+            margin-top: 150px;
+            font-size: 5em;
+        }
+        .product-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .product {
+            margin: 20px;
+            text-align: center;
+        }
+        .product img {
+            width: 200px; 
+            height: 200px; 
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .product img:hover {
+            transform: scale(1.1);
+        }
+        .product-title {
+            font-size: 1.2em;
+            color: #31d131; 
+            margin-top: 10px;
+        }
+        .product-price {
+            font-size: 1em;
+            color: #74ec74; 
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="agroanonimo.jpeg" alt="Logo do site">
+        <div>O melhor site de agronomia do Brasil</div>
+    </header>
+    <h1>ArvOr3s D1v3r5as</h1>
+    <div class="product-container">
+        <div class="product">
+            <img src="Maconha.webp" alt="Produto 1"> 
+            <div class="product-title">Ora-pro-nobis</div>
+            <div class="product-price">R$ 40g</div>
+        </div>
+        <div class="product">
+            <img src="arbusto.jpg" alt="Produto 2"> 
+            <div class="product-title">Árvore sem tronco</div>
+            <div class="product-price">R$ 333,33</div>
+        </div>
+        <div class="product">
+            <img src="coca-cola.webp" alt="Produto 3"> 
+            <div class="product-title">Coca-cola!!!</div>
+            <div class="product-price">R$ 18,68</div>
+        </div>
+        <div class="product">
+            <img src="Cogumelo do Tio Harry.webp" alt="Produto 4">
+            <div class="product-title">Cogumelo do Tio Harry</div>
+            <div class="product-price">R$ 4,32</div>
+        </div>
+    </div>
+</body>
+</html>

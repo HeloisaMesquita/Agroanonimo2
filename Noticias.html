@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agroanonimo - Notícias</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-image: url('sistema-codigo-binario.jpg'); 
+            background-size: cover;
+            background-position: center;
+        }
+        header {
+            background-color: #1b511b;
+            color: #118911; 
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        header img {
+            height: 50px; 
+        }
+        h1 {
+            text-align: center;
+            color: #14b11a; 
+            text-shadow: 3px 4px 4px #a6ffa3; 
+            margin-top: 150px;
+            font-size: 5em;
+        }
+        .news-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .news {
+            margin: 20px;
+            text-align: center;
+        }
+        .news img {
+            width: 300px; 
+            height: 200px; 
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .news img:hover {
+            transform: scale(1.1);
+        }
+        .news-title {
+            font-size: 1.2em;
+            color: #31d131;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="agroanonimo.jpeg" alt="Logo do site"> 
+        <div>O melhor site de agronomia do Brasil</div>
+    </header>
+    <h1>Not1ci4s</h1>
+    <div class="news-container">
+        <div class="news">
+            <img src="Desenhos Alienigenas.jpg" alt="Notícia 1"> 
+            <div class="news-title">"Desenhos alienigenas na Granja Abobrinha!"</div>
+        </div>
+        <div class="news">
+            <img src="Sino de Tenebris.jpg" alt="Notícia 2"> 
+            <div class="news-title">"Vacas estão sendo abduzidas?"</div>
+        </div>
+    </div>
+</body>
+</html>
